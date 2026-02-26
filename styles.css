@@ -1,0 +1,30 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(215, 245, 250);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: cursive, sans-serif;
+    background-color: hsl(87, 41%, 73%);
+    max-width: fit-content;
+    text-align: center;
+    padding: 5px;
+}
+
+ul, ol {
+    background-color: rgb(105, 161, 153);    
+    max-width: fit-content;
+    padding-right: 2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.imginline {
+    display: inline-block;
+}
+
+#left {
+    float: left;
+    max-width: 550px;
+    margin: 10px;
+}
